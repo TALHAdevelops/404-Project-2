@@ -1,0 +1,28 @@
+/* Custom Islamic Theme Navbar */
+.navbar-custom {
+  background-color: #082B23; /* Dark Green */
+  border-bottom: 2px solid white; /* Golden separator */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #DAA520 !important; /* Golden */
+  font-weight: 500;
+  
+}
+.navbar-custom .nav-link {
+  color: #DAA520 !important; 
+  font-weight: 500;
+  margin-left: 20px; 
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffffff !important; /* White on hover */
+}
+navbar-custom .navbar-toggler {
+  border-color: #DAA520; /* Golden border */
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(218,165,32)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
