@@ -1,0 +1,86 @@
+/* Custom styles for Rabi-ul-Awwal Events page */
+
+body {
+  background-color: white !important;
+}
+
+/* Navbar custom background */
+.navbar-custom {
+  background-color: white;
+  border-bottom: 2px solid #daa520; /* Golden separator */
+}
+
+/* main-body-lg-container padding */
+.Rabi-ul-Awwal-events {
+  margin-top: 20px;
+  height: 800px;
+}
+
+/* Main heading styles */
+.events-main-heading {
+  display: flex;
+  padding: 16px;
+}
+.events-main-heading > h1 {
+  font-size: 32px;
+  color: #daa520;
+}
+
+/* Event card styles */
+.d-12-events-card {
+  display: flex;
+  padding: 12px 16px;
+}
+
+/* events discription sec styling*/
+.pragrams {
+  display: flex;
+}
+
+/* events claender icon sec styling*/
+.date-12 {
+  display: flex;
+  margin-right: 10px;
+  height: 48px;
+  width: 48px;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f5f2;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+/* Event info section */
+.d-12-event-inf {
+  display: flex;
+  flex-direction: column;
+  color: #668270;
+  font-weight: 400;
+}
+.d-12-event-inf>span{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#events-sub-head{
+    color: #daa520;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* RSVP button styles */
+.rsvp-button {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.rsvp-button > button {
+  padding: 5px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f5f2;
+  color: #daa520;
+  width: 84px;
+  height: 35px;
+}
