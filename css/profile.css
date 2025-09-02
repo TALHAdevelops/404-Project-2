@@ -11,6 +11,9 @@
 .custom-card h5 {
   color: #daa520;
 }
+.custom-card{
+  background-color: transparent ;
+}
  .card-title{
     font-weight: 700;
  }
