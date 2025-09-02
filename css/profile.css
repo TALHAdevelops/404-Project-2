@@ -12,11 +12,11 @@
   color: #daa520;
 }
  .card-title{
-    font-weight: 900;
+    font-weight: 700;
  }
 .custom-card h5 {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* fadeIn animation */
