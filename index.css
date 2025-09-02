@@ -3,7 +3,22 @@
   background-color: #011b15; /* Dark Green */
   border-bottom: 2px solid white; /* Golden separator */
 }
+/* logo floating animation */
+.logo {
+      animation: float 3s ease-in-out infinite;
+    }
 
+     @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-2px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    } 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
   color: #DAA520 !important; /* Golden */
@@ -11,7 +26,7 @@
   
 }
 .navbar-custom .nav-link {
-  color: #DAA520 !important; 
+  color:#DAA520 !important; 
   font-weight: 500;
   margin-left: 20px; 
 }
@@ -50,7 +65,8 @@ body{
   position: relative;
   color: white;
   text-align: center;
-    border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 /* Dark overlay for readability */

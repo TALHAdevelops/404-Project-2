@@ -1,19 +1,10 @@
 /* Custom styles for Rabi-ul-Awwal Events page */
 
-body {
-  background-color: white !important;
-}
-
-/* Navbar custom background */
-.navbar-custom {
-  background-color: white;
-  border-bottom: 2px solid #daa520; /* Golden separator */
-}
-
 /* main-body-lg-container padding */
 .Rabi-ul-Awwal-events {
-  margin-top: 20px;
-  height: 800px;
+  margin-top: 50px;
+  /* border: 1px solid #daa520; */
+  border-radius: 15px;
 }
 
 /* Main heading styles */
@@ -23,7 +14,7 @@ body {
 }
 .events-main-heading > h1 {
   font-size: 32px;
-  color: #daa520;
+  color:#daa520;
 }
 
 /* Event card styles */
@@ -49,6 +40,7 @@ body {
   background-color: #f2f5f2;
   border-radius: 8px;
   margin-top: 5px;
+  /* border: 2px solid #daa520; */
 }
 
 /* Event info section */
@@ -68,6 +60,10 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
+.event-discript{
+  color: white;
+  font-weight: 400;
+}
 
 
 /* RSVP button styles */
@@ -78,9 +74,33 @@ body {
 .rsvp-button > button {
   padding: 5px 16px;
   border-radius: 8px;
-  border: none;
+  border:none;
   background-color: #f2f5f2;
   color: #daa520;
   width: 84px;
   height: 35px;
+  font-weight: 500;
+  transition: background 0.3s ease ;
+  transition: color 0.3s ease ;
+}
+
+.rsvp-button > button:hover {
+  background-color:#daa520;
+  color: white;
+}
+
+/* fadeIn animation */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Attach animation to cards */
+.slideUp-animate {
+  animation: slideUp 1s linear both;
 }

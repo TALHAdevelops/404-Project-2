@@ -14,6 +14,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
     />
+    <!-- Animations -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="events.css" />
@@ -48,16 +53,16 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="./about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
+              <a class="nav-link" href="./events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
+              <a class="nav-link" href="./profile.html">Profile</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">Contact</a>
@@ -67,16 +72,17 @@
       </div>
     </nav>
 
-    <!-- Rabi-ul-Awaal events page main container -->
-    <div class="Rabi-ul-Awwal-events container-lg">
-      <div class="events-main-heading">
+    <!-- Main container for Rabi-ul-Awwal events -->
+    <div class="Rabi-ul-Awwal-events container-lg shadow-lg animate__animated  slideUp-animate">
+      <div class="events-main-heading  ">
         <h1>Rabi-ul-Awwal Events</h1>
       </div>
 
-       <div class="d-12-events-card">
+       <!-- Event card: Mawlid Night -->
+       <div class="d-12-events-card ">
         <div class="pragrams col-lg-11">
           <div class="date-12">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16" stroke="#DAA520" stroke-width="0.3">
               <path
                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0  0 1 1 0V1h1a2 2 0 0 1 2 2v11a2  2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2  2 0 0 1 2-2h1V.5a.5.5  0 0 1 .5-.5M2 2a1 1 0 0  0-1 1v1h14V3a1 1 0 0  0-1-1zm13 3H1v9a1 1 0 0  0 1 1h12a1 1 0 0 0 1-1z"
               />
@@ -87,21 +93,27 @@
             </svg>
           </div>
           <div class="d-12-event-inf">
+            <!-- Event title -->
             <span id="events-sub-head">Mawlid Night</span>
-            <span>Join us for a night of spiritual reflection and celebration of the Prophet's birth. Featuring 
+            <!-- Event description -->
+            <span class="event-discript">Join us for a night of spiritual reflection and celebration of the Prophet's birth. Featuring 
                 recitations, nasheeds, and a lecture by Imam Omar.</span>
+            <!-- Event date and time -->
             <span>October 10, 2024 | 7:00 PM - 9:00 PM</span>
           </div>
         </div>
         <div class="rsvp-button col-lg-1">
+             <!-- RSVP button -->
             <button>RSVP</button>
         </div>
       </div>
 
-       <div class="d-12-events-card">
+        <!-- Event card: Family Mawlid -->
+       <div class="d-12-events-card ">
         <div class="pragrams col-lg-11 ">
           <div class="date-12">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16">
+            <!-- Calendar icon with date -->
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16" stroke="#DAA520" stroke-width="0.3">
               <path
                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0  0 1 1 0V1h1a2 2 0 0 1 2 2v11a2  2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2  2 0 0 1 2-2h1V.5a.5.5  0 0 1 .5-.5M2 2a1 1 0 0  0-1 1v1h14V3a1 1 0 0  0-1-1zm13 3H1v9a1 1 0 0  0 1 1h12a1 1 0 0 0 1-1z"
               />
@@ -113,7 +125,7 @@
           </div>
           <div class="d-12-event-inf">
             <span id="events-sub-head">Family Mawlid</span>
-            <span>A family-friendly event with storytelling, arts and crafts, and a special children's program about the Prophet's life.</span>
+            <span class="event-discript">A family-friendly event with storytelling, arts and crafts, and a special children's program about the Prophet's life.</span>
             <span>October 12, 2024 | 10:00 AM - 12:00 PM</span>
           </div>
         </div>
@@ -122,10 +134,11 @@
         </div>
       </div>
 
-       <div class="d-12-events-card">
+       <!-- Event card: Youth Circle -->
+       <div class="d-12-events-card ">
         <div class="pragrams col-lg-11 ">
           <div class="date-12">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16 " stroke="#DAA520" stroke-width="0.3" >
               <path
                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0  0 1 1 0V1h1a2 2 0 0 1 2 2v11a2  2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2  2 0 0 1 2-2h1V.5a.5.5  0 0 1 .5-.5M2 2a1 1 0 0  0-1 1v1h14V3a1 1 0 0  0-1-1zm13 3H1v9a1 1 0 0  0 1 1h12a1 1 0 0 0 1-1z"
               />
@@ -137,7 +150,7 @@
           </div>
           <div class="d-12-event-inf">
             <span id="events-sub-head">Youth Circle</span>
-            <span>A gathering for young adults to discuss the Prophet's teachings and their relevance in today's world. Led by Sheikh Ahmed.</span>
+            <span class="event-discript">A gathering for young adults to discuss the Prophet's teachings and their relevance in today's world. Led by Sheikh Ahmed.</span>
             <span>October 14, 2024 | 6:00 PM - 8:00 PM</span>
           </div>
         </div>
@@ -146,10 +159,11 @@
         </div>
       </div>
 
-       <div class="d-12-events-card">
+       <!-- Event card: Nasheed Night -->
+       <div class="d-12-events-card ">
         <div class="pragrams col-lg-11 ">
           <div class="date-12">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16" stroke="#DAA520" stroke-width="0.3">
               <path
                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0  0 1 1 0V1h1a2 2 0 0 1 2 2v11a2  2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2  2 0 0 1 2-2h1V.5a.5.5  0 0 1 .5-.5M2 2a1 1 0 0  0-1 1v1h14V3a1 1 0 0  0-1-1zm13 3H1v9a1 1 0 0  0 1 1h12a1 1 0 0 0 1-1z"
               />
@@ -161,7 +175,7 @@
           </div>
           <div class="d-12-event-inf">
             <span id="events-sub-head">Nasheed Night</span>
-            <span>A night of devotional songs and poetry celebrating the Prophet's life and legacy. Featuring renowned artists from around the world.</span>
+            <span class="event-discript">A night of devotional songs and poetry celebrating the Prophet's life and legacy. Featuring renowned artists from around the world.</span>
             <span>October 16, 2024 | 8:00 PM - 10:00 PM</span>
           </div>
         </div>
@@ -170,10 +184,11 @@
         </div>
       </div>
 
-       <div class="d-12-events-card">
+       <!-- Event card: Jummah Prayer -->
+       <div class="d-12-events-card ">
         <div class="pragrams col-lg-11 ">
           <div class="date-12">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  fill="#DAA520"  class="bi bi-calendar4"  viewBox="0 0 16 16" stroke="#DAA520" stroke-width="0.3">
               <path
                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0  0 1 1 0V1h1a2 2 0 0 1 2 2v11a2  2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2  2 0 0 1 2-2h1V.5a.5.5  0 0 1 .5-.5M2 2a1 1 0 0  0-1 1v1h14V3a1 1 0 0  0-1-1zm13 3H1v9a1 1 0 0  0 1 1h12a1 1 0 0 0 1-1z"
               />
@@ -185,7 +200,7 @@
           </div>
           <div class="d-12-event-inf">
             <span id="events-sub-head">Jummah Prayer</span>
-            <span>A special Friday prayer service dedicated to the Prophet, with a sermon on his virtues and teachings.</span>
+            <span class="event-discript">A special Friday prayer service dedicated to the Prophet, with a sermon on his virtues and teachings.</span>
             <span>October 18, 2024 | 11:00 AM - 1:00 PM</span>
           </div>
         </div>
