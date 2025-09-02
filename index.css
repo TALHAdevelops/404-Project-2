@@ -108,7 +108,7 @@ body{
 }
 
 /* Simple button */
-.btn {
+  .btn {
   background: #38e07a; 
   color: black;      
   border: none;
@@ -161,4 +161,20 @@ body{
   margin: 0;
   font-size: 1rem;
   color: white;
+}
+
+.footer-link:hover {
+  color: #DAA520;
+  text-decoration: underline;
+}
+
+.footer-social {
+  color: #38e07a;
+  font-size: 1.4rem;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.footer-social:hover {
+  color: #DAA520;
 }
