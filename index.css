@@ -143,6 +143,7 @@ body {
   justify-content: center;
   gap: 50px;
   margin-top: 1px;
+  flex-wrap: wrap; /* Make items wrap on small screens */
 }
 
 #countdown div {
@@ -234,6 +235,16 @@ body {
   .card {
     max-width: 90%; /* less than full width */
     margin: auto; /* center horizontally */
+  }
+  #countdown {
+    gap: 15px;
+  }
+  #countdown div {
+    min-width: 60px;
+    padding: 12px;
+  }
+  #countdown span {
+    font-size: 1.2rem;
   }
 }
 
